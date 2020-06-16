@@ -57,8 +57,8 @@ if(!(idade >= 18) || idade === 17 ) {
 
 ==================================================== */
 
-console.log( 2 * 2)// 4
-console.log( 2 / 2)// 1
-console.log( 2 % 1.5)// 0.5
-console.log( 2 + 2)// 4
-console.log( 2 - 2)// 0
+// console.log( 2 * 2)// 4
+// console.log( 2 / 2)// 1
+// console.log( 2 % 1.5)// 0.5
+// console.log( 2 + 2)// 4
+// console.log( 2 - 2)// 0
