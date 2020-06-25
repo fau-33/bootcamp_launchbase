@@ -11,8 +11,8 @@ body{
   background-color: white;
   padding: 30px;
   display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
+  align-items: space-between;
+  justify-content: space-between;
 }
 
 #page-home .content{
@@ -22,31 +22,32 @@ body{
   flex-direction: column;
   justify-content: right;
   margin: 0;
-  
-  
-
 }
 
 #page-home header ul{
   display: flex;
   list-style-type: none;
-  
 }
 
 #page-home header ul li{
   display: flex;
   justify-items: right;
   align-items: right;
-  
 }
 
 #page-home header li a {
   display: flex;
   text-decoration: none;
-  padding: 40px;
+  padding: 30px;
   justify-content: right;
-  
-  
+}
+
+#page-home header div {
+  padding: 30px;
+}
+
+#page-home header div a{
+  text-decoration: none;
 }
 
 
