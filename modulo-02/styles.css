@@ -127,7 +127,44 @@ header{
   height: 100%;
   position: fixed;
   top: 0;
+  opacity: 0;
+  visibility: hidden;
 }
+
+.modal{
+  background-color: black;
+  height: 90%;
+  width: 90%;
+  margin: 5vh auto;
+  position: relative;
+}
+
+.modal .close-modal{
+  color: green;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  cursor: pointer;
+}
+
+/*=== MODAL.ACTIVE ===*/
+
+.modal-overlay.active{
+  opacity: 1;
+  visibility: visible;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
