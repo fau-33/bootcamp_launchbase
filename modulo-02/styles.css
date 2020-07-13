@@ -132,7 +132,7 @@ header{
 }
 
 .modal{
-  background-color: black;
+  background-color: white;
   height: 90%;
   width: 90%;
   margin: 5vh auto;
@@ -140,12 +140,12 @@ header{
 }
 
 .modal .close-modal{
-  color: green;
   position: absolute;
   right: 8px;
   top: 8px;
   cursor: pointer;
 }
+
 
 /*=== MODAL.ACTIVE ===*/
 
