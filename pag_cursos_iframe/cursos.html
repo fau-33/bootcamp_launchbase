@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Página de cursos e iframe</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
@@ -12,8 +13,8 @@
     </div>
   </header>
 
-  <div class="title">
-    <h1>Cursos</h1>
+  <div id="wrapper">
+    <h1>Cursos Rocketseat</h1>
   </div>
 
   <section class="cards">
@@ -21,14 +22,39 @@
       <div class="card_image-container">
         <img src="starter.svg" alt="Logo curso starter ">
       </div>
-      <div class="card_title">
-        <h2>Curso Starter</h2>
-      </div>
       <div class="card_info">
         <p>43 módulos</p>
-        <p class="card_price">Free</p>
+        <div class="card_price">
+          <p>Free</p>
+        </div>
       </div>
     </div>
+
+    <div class="card">
+      <div class="card_image-container">
+        <img src="launchbase.svg" alt="Logo curso launchbase ">
+      </div>
+      <div class="card_info">
+        <p>33 módulos</p>
+        <div class="card_price">
+          <p>Payment</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card_image-container">
+        <img src="gostack.svg" alt="Logo curso gostack ">
+      </div>
+      <div class="card_info">
+        <p>40 módulos</p>
+      </div>
+      <div class="card_price">
+        <p>Payment</p>
+      </div>
+    </div>
+
+    
   </section>
 </body>
 </html>
