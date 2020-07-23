@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Página de cursos e iframe</title>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -20,7 +23,7 @@
   <section class="cards">
     <div class="card">
       <div class="card_image-container">
-        <img src="starter.svg" alt="Logo curso starter ">
+        <a href="http://"><img src="starter.svg" alt="Logo curso starter "></a>
       </div>
       <div class="card_info">
         <p>43 módulos</p>
@@ -56,5 +59,17 @@
 
     
   </section>
+
+  <div class="modal-overlay active">
+    <div class="modal">
+      <a class="close-modal">
+        <i class="material-icons" style="color: #000;">close</i>
+      </a>
+    </div>
+
+    <div class="modal-content">
+      <!-- video aqui -->
+    </div>
+  </div>
 </body>
 </html>
