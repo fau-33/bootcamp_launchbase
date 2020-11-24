@@ -82,6 +82,10 @@ footer a{
   border-bottom: 1px solid var(--color-primary);
 }
 
+.posts-title{
+  margin-bottom: 32px;
+}
+
 /* style page conteudos */
 
 .cards{
@@ -201,3 +205,4 @@ footer a{
   height: 94%;
   top: 6%;
 }
+
